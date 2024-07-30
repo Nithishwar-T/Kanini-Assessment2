@@ -1,0 +1,44 @@
+.navbar-custom {
+    background-color: #e8e8e8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-custom .companyname {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-custom .companyname img {
+    margin-right: 5px;
+  }
+  
+  .navbar-custom .nav-middle {
+    flex-grow: 1;
+    justify-content: center;
+  }
+  
+  .navbar-custom .nav-item-custom {
+    margin-right: 20px;
+  }
+  
+  .navbar-custom .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-custom .nav-right .nav-item-custom {
+    margin-left: 20px;
+  }
+  
+  .navbar-custom .nav-item-custom:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-custom .nav-link:hover {
+    color: #050505;
+  }
+
+
+

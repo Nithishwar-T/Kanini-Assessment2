@@ -1,0 +1,352 @@
+.navbar-custom {
+  background-color: #e8e8e8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-custom .companyname {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-custom .companyname img {
+  margin-right: 5px;
+}
+
+.navbar-custom .nav-middle {
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.navbar-custom .nav-item-custom {
+  margin-right: 20px;
+}
+
+.navbar-custom .nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-custom .nav-right .nav-item-custom {
+  margin-left: 20px;
+}
+
+.navbar-custom .nav-item-custom:last-child {
+  margin-right: 0;
+}
+
+.navbar-custom .nav-link:hover {
+  color: #050505;
+}
+
+.footer-custom {
+  background-color: #e8e8e8;
+  padding: 1px 0;
+
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+}
+
+.home-page {
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  position: relative;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 0px 0px 0px;
+}
+
+.overlay-card {
+  position: relative;
+  top: -60px;
+  width: 110%;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+}
+
+.events-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #464444;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-decoration: none;
+  text-align: left;
+}
+
+.events-card h3 {
+  font-family: Manrope;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 38.25px;
+  color: white;
+  text-decoration: none;
+}
+
+.events-card p {
+  font-family: Manrope;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27.32px;
+  color: grey;
+}
+
+.home-container {
+  margin-top: 20px;
+}
+
+BookDesk .book-desk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.book-desk h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.book-desk p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.colleagues input {
+  margin-bottom: 10px;
+}
+
+.colleagues button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book-desk-button {
+  padding: 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.book-desk-button:hover {
+  background-color: #0056b3;
+}
+
+.desks-available {
+  margin-top: 10px;
+  color: #28a745;
+}
+
+.building-image {
+  margin-top: 20px;
+  max-width: 100%;
+  height: auto;
+}
+
+.home-container {
+  padding: 20px;
+}
+
+.overlay-card {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+}
+
+.nothing-card,
+.events-card,
+.notifications-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+}
+
+.booking-links img {
+  margin-right: 5px;
+}
+
+.booking-links Button {
+  margin-right: 20px;
+  text-decoration: none;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+}
+
+.meeting-rooms {
+  margin-top: 20px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+}
+
+.meeting-room {
+  margin-bottom: 10px;
+  text-align: left;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+}
+
+.meeting-room-card {
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+}
+
+.meeting-room-image {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.room-info {
+  text-align: left;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+}
+
+.events-card h3,
+.notifications-card h3 {
+  font-size: 1.2;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+
+.events-card p,
+.notifications-card p {
+  font-size: 1rem;
+  color: grey;
+  text-decoration: none;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+}
+
+.notifications-card img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.notifications-card button,
+.events-card button {
+  background-color: white;
+  color: #5162f6;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 25px;
+  text-align: left;
+}
+
+.meeting-room-image3 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 5px;
+  height: 10%;
+}
+
+.admin-profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+
+.admin-name {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.roomcardimg {
+  padding: 20px;
+}
